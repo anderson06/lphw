@@ -1,0 +1,50 @@
+List
+
+Word/Symbol                     Name                    What it does
+print                                                   A function do print some arguments
+""                              Double quotes           Wrap text that will be used in the program
+''                              Single quotes           Wrap text that will be used in the program
+#                               Octothorpe              Write single line comments
++                               Plus                    Adition
+-                               Minus                   Subtraction
+/                               Slash                   Division
+*                               Asterisk                Multiplication
+>                               Greater-than            Check if left value is greather than right value
+<                               Less-than               Check if left value is less than right value
+>=                              Greater-than-equal      Check if left value is greather than or equal right value
+<=                              Less-than-equal         Check if left value is less than or equal right value
+%                               Percent                 Modulus = Returns the remain of the division of the left value by the right value
+=                               Equal                   Assign value to variable
+.                               Decimal point           Float numbers
+"",var,""                       Comma                   Concatenate strings
+"" % var                        Percent                 Embed a variables inside a strings
+%s                                                      Format sequence inside string to embed other string
+%d                                                      Format sequence inside string to embed integer
+%r                                                      Format sequence inside string to embed raw values for debuging purposes
+%f                                                      Format sequence inside string to embed float
+# -*- coding: utf-8 -*-                                 Special comment to use foreign chars
+False                                                   Boolean value false
+True                                                    Boolean value true
+"""                                                     Create multiline strings
+\                               Backslash               Use before some chars to be able to use special chars in strings
+\\                                                      Backslash (\)
+\'                                                      Single-quote (')
+\"                                                      Double-quote (")
+\n                                                      New line
+\t                                                      TAB
+raw_input()                                             A function wich receives user input and returns it as a string
+from package import module                              Import module (wich is python code) from package (wich is a group of modules) so we can use it
+sys                                                     Package containing interpreter modules like argv
+argv                                                    A list containg script name and params send to it
+unpacking                                               Put list values in ordered variables
+open(filename)                                          Return an file object representing the file specified by filename
+file                                                    Object the represents a file
+file.read()                                             Returns file content
+open(filename, 'w')                                     File object with wright permission, erases original file content
+file.close()                                            Close a file so it can no longer be used
+def                                                     Define a function
+:                              colon                    After a function definition use four spaces indentation for function content
+*args                                                   Function argument behaves as list containing all arguments passed in
+file.seek(byte)                                         Go to byte position inside a file
+file.readline()                                         Returns a line from a file defined by "\n"
+return                                                  Define what will be return when a function is called
